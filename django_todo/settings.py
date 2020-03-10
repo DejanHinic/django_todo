@@ -38,6 +38,7 @@ ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
 host = os.environ.get('SITE_HOST')
 if host:
     ALLOWED_HOSTS.append(host)
+
 # Application definition
 
 INSTALLED_APPS = [
